@@ -19,6 +19,17 @@ public class StreamEmployee2 {
         empList2.add(new Employee2(103,"kim","A",90000));
         empList2.add(new Employee2(104,"json","C",15000));
 
+//        Map<Integer,Employee2> maplist=new HashMap<>();
+//        maplist.put(10,new Employee2(101,"john","A",60000));
+//        maplist.put(20,new Employee2(109,"peter","B",30000));
+//         maplist.put(30, new Employee2(102, "mak", "A", 80000));
+//
+//        List<Map.Entry<Integer, Employee2>> collect = maplist.entrySet().stream()
+//                .filter(s -> s.getValue().getSalary() > 40000)
+//                .collect(Collectors.toList());
+//        collect.stream().forEach(p-> System.out.println(p.getKey() +" : "+ p.getValue().getSalary()));
+
+        //collect.stream().forEach(System.out::println);
 
         //System.out.println(list);
 
@@ -106,6 +117,8 @@ public class StreamEmployee2 {
         //integerList.stream().distinct().sorted().skip(1).limit(1).forEach(System.out::println);
         //second highest num
        // integerList.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).limit(1).forEach(System.out::println);
-    
+//        Map<Integer, List<Employee2>> collect = empList2.stream().collect(Collectors.groupingBy(Employee2::getId, Collectors.toList()));
+//    collect.entrySet().forEach(p-> System.out.println(p.getKey() +" :"+ p.getValue().stream().map(e->e.getSalary()).toString()));
+
     }
 }
