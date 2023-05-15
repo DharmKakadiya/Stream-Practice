@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ea4fb6a-17b4-4588-b6f6-d8e5a1d14338" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Streamwithemployee/Employee1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Streamwithemployee/StreamPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Streamemp2/Employee2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Streamemp2/StreamEmployee2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Streamwithemployee/StreamPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Streamwithemployee/StreamPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +52,26 @@
     "last_opened_file_path": "C:/Users/Dharm/Documents/GITHUB/Stream-Practice"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StreamPractice">
+  <component name="RunManager" selected="Application.StreamEmployee2">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="practice_stream" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamEmployee2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Streamemp2.StreamEmployee2" />
+      <module name="practice_stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Streamemp2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamEmployee2" />
         <item itemvalue="Application.StreamPractice" />
         <item itemvalue="Application.Main" />
       </list>

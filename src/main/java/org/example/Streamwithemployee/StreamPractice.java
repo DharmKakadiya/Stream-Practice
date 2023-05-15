@@ -2,6 +2,7 @@ package org.example.Streamwithemployee;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamPractice {
     public static void main(String[] args) {
@@ -56,7 +57,23 @@ public class StreamPractice {
 //        Map<Integer, List<Employee1>> collect = empList.stream().collect(Collectors.groupingBy(Employee1::getDeptId, Collectors.toList()));
 //        collect.entrySet().forEach(p-> System.out.println(p.getKey() +" "+ p.getValue().stream().map(e->e.getSalary()).reduce(0,Integer::sum) ));
 
-        
+//        Longest string in List
+//        List<String> words = Arrays.asList("core-java", "spring","hibernate");
+//        String longestStr = words.stream().reduce((s1, s2) -> s1.length() > s2.length() ? s1 : s2).get();
+//        System.out.println(longestStr);
+
+
+
+//        Sum of all elements
+//        Integer sumResult = Stream.of(1,2,10,3,4,5,6).reduce(0, (a, b) -> a+b); //Best way us ==> reduce(0, Integer::sum);
+//        System.out.println(sumResult);
+
+//        Max of all elements
+//        Integer sumResult1 = Stream.of(1,2,10,3,4,5,6).reduce(0, (a, b) -> a>b?a:b);  //Best way ==> reduce(0, Integer::max)
+//        System.out.println(sumResult1);
+
+
+
     }
 
 }
